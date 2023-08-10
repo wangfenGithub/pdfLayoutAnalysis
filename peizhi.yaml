@@ -1,0 +1,4 @@
+path: D:\codeMyself\pythonProject\KUNLun_Bushu
+command: "source /home/cloud/anaconda3/bin/activate kantan_document;cd /home/cloud/kantan/server/yolov7;python detect.py --weights /home/cloud/kantan/server/yolov7/weights/best.pt --source /home/cloud/kantan/server/yolov7/inference/images/ --save-txt --device 1 --conf-thres 0.35"
+yolo_label_dir: "/house/yuanmingcai/kantan/yolov7/runs/detect/exp/labels"
+yolo_detect_dir: "/house/yuanmingcai/kantan/yolov7/runs/detect"
